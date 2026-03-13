@@ -1,5 +1,1 @@
-import os
-
-
-open("example.txt" ,"r")
-    
+#EXCERCISE 1  WRITE A PROGRAM THE CHECK THAT INDEX 0,1 ARE EQUAL TO EACH OTHER
