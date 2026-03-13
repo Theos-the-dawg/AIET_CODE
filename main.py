@@ -11,3 +11,9 @@ else:
 
 #EXCERCISE 2  WRITE A PROGRAM THE CHECK THAT INDEX 0,1 ARE EQUAL OR GREATER THAN EACH OTHER
 array  = [1,2,2,3,4,6]
+index_1 = array[0]
+index_2 = array[1]
+if index_1 <= index_2:
+    print (True)
+else:
+    print (False)
