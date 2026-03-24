@@ -1,27 +1,27 @@
-# # #EXCERCISE 1  WRITE A PROGRAM THE CHECK THAT INDEX 0,1 ARE EQUAL TO EACH OTHER
-# # array  = [1,2,2,3,4,6]
+#1.1 CREATE AN ARRAY AND APPEND 3 VALUES
 
-# # value_1 = array[0]
-# # value_2 = array[1]
-# # if value_1 == value_2:
-# #     print(True)
-# # else:
-# #     print(False)
-# # #print(value_1 == value_2)
+array = [2,3,5,7,1,2,9,0,214,10,23]
 
-# # #EXCERCISE 2  WRITE A PROGRAM THE CHECK THAT INDEX 0,1 ARE EQUAL OR GREATER THAN EACH OTHER
-# # array  = [1,2,2,3,4,6]
-# # index_1 = array[0]
-# # index_2 = array[1]
-# # if index_1 <= index_2:
-# #     print (True)
-# # else:
-# #     print (False)
+array.append(50)
+array.append(20)
+array.append(10)
 
-# age = range(20,25)
-# if age is 20  != 25:
-#     pass
-# not {!=}
-# and {&}
-# is {==}
-# or 
+print(array)
+array.sort()
+print(array)
+#1.2 FIND THE LARGEST ELEMENT IN THE ARRAY
+maximum=max(array)
+print(maximum)
+#1.3 FIND THE SMALLEST ELEMENT IN THE ARRAY 
+minimum = min(array)
+print(minimum)
+
+
+#1.4 FIND MINUS THE MAX - MIN OF THE ARRAY
+print(maximum-minimum)
+value = 0 
+for number in array:
+   value+=number
+   print(value)
+
+print(f"the avg is : {value/len(array)}") 
