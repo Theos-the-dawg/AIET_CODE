@@ -98,7 +98,7 @@ Example:
 items = {"bread": 20, "milk": 60, "eggs": 55}
 ```
 
-Expected Output:
+Expected Output: 
 
 ```
 milk
