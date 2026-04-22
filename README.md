@@ -12,7 +12,7 @@
 
 **1.** What will the following code output? (2 marks)
 
-```python
+```
 for i in range(1, 5):
     if i % 2 == 0:
         print(i)
